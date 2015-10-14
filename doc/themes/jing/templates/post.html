@@ -1,0 +1,11 @@
+{% extends "templates/base.html" %}
+
+{% block main %}
+<div id="body">
+    {{content|safe}}
+</div>
+<div id="nav">
+    {% if prev|not-empty %}<a href="{% make-url ctx prev %}">Prev</a><br>{% endif %}
+    {% if next|not-empty %}<a href="{% make-url ctx next %}">Next</a>{% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+:publish-date: 2015-06-23
+:imagesdir: /images/posts
+
+# This is the first
+
+This is post content
+
+image::second-complex-post/text.png[Sunset]
+
+
+image::second-complex-post/text.png[Sunset]

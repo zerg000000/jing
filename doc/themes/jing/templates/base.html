@@ -1,0 +1,10 @@
+<html>
+<head>
+    <title>{{site.title}}</title>
+    <link rel="stylesheet" href="{% make-url static /css/asciidoc.css %}" type="text/css">
+    <script type="text/javascript" src="{% make-url static /js/jquery-2.1.4.min.js %}"></script>
+</head>
+<body>
+    {% block main %}This text should be overridden{% endblock %}
+</body>
+</html>
